@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#/Users/fernandodoglio/.deno/bin/deno
-
 DENO="$(which deno)"
 SHEBANG="#!${DENO} run -A"
 CODE="$(deno bundle index.ts)"

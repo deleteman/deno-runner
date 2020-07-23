@@ -6,7 +6,6 @@ import { parseValidFlags, runScript } from './utils.ts'
 const ARGS = parse(Deno.args)
 const scriptName:string = <string>ARGS["_"][0]
 
-
 const FLAGFILE = "./.flags"
 
 const decoder = new TextDecoder('UTF-8')

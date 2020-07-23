@@ -12,6 +12,7 @@ export function findFlag(flag: string): string | boolean {
         "--allow-all", 
         "--allow-env", 
         "--allow-hrtime", 
+        "--allow-net",
         "--allow-plugin", 
         "--allow-read", 
         "--allow-run", 
